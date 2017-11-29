@@ -43,7 +43,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 100px 0; } }
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -133,10 +133,11 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  /*background-image: url("../img/header-bg.jpg");*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  background: #a09301;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -509,3 +510,6 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #fed136; }
+
+
+
